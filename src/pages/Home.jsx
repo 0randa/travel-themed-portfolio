@@ -1,9 +1,10 @@
 import React from "react";
-import "./styles/boarding_ticket.css";
-import "./styles/general.css";
-import planeLogo from "./images/plane_logo.png";
-import rightArrow from "./images/right_arrow.png";
-import takeoffPlane from "./images/takeoff_plane.png";
+import "../styles/boarding_ticket.css";
+import "../styles/general.css";
+import planeLogo from "../images/plane_logo.png";
+import rightArrow from "../images/right_arrow.png";
+import takeoffPlane from "../images/takeoff_plane.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -59,10 +60,21 @@ function PassengerDetails() {
 function Navigation() {
   return (
     <div className="middle-section-right-column">
-      <p>Home</p>
-      <p>Hobbies</p>
-      <p>Projects</p>
-      <p>Links</p>
+      <p>
+        <Link to="/">Home</Link>
+      </p>
+
+      <p>
+        <Link to="/hobbies">Hobbies</Link>
+      </p>
+
+      <p>
+        <Link to="/projects">Projects</Link>
+      </p>
+
+      <p>
+        <Link to="/links">Links</Link>
+      </p>
     </div>
   );
 }
