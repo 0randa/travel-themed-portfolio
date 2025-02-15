@@ -6,4 +6,12 @@
 
 .postcard {
     width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.postcard > img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
 }
