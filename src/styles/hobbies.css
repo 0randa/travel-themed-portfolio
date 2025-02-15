@@ -1,0 +1,9 @@
+.hobbies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.postcard {
+    width: 45%;
+}
