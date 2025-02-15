@@ -1,0 +1,6 @@
+eslint.config
+package-lock.json
+package.json
+vite.config.js
+node_modules
+.DS_Store
