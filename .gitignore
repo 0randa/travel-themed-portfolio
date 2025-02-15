@@ -1,6 +1,8 @@
-eslint.config
+eslint.config.js
 package-lock.json
 package.json
 vite.config.js
 node_modules
 .DS_Store
+dist
+.vscode
