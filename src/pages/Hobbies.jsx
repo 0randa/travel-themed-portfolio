@@ -38,6 +38,11 @@ function Hobbies() {
                     <img src={aquarium}></img>
                     <div className="postcard-mid">
                         <p>Aquarist</p>
+                        <p>Aquariums is a hobby where you raise your fish and manage your aquatic ecosystems.</p>
+                        <p>I have a large fish tank that is filled with large plants. My tank is inhabited by Guppies,
+                            and they live in an environment that is closely resembled to their natural habitat where
+                            they can breed and survive.
+                        </p>
                     </div>
                     <img className="stamp" src={chinaStamp}></img>
                 </div>
