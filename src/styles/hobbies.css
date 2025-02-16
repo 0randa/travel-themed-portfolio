@@ -2,16 +2,32 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 20px;
 }
 
 .postcard {
     width: 45%;
     display: flex;
     flex-wrap: wrap;
+    column-gap: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
 }
 
 .postcard > img {
     width: 50%;
     height: 100%;
     object-fit: cover;
+}
+
+.postcard .stamp {
+    height: 55px;
+    width: auto;
+    object-fit: cover;
+    margin: 0;
+}
+
+.postcard-mid {
+    width: 35%;
 }
