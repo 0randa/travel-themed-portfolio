@@ -9,12 +9,11 @@ function JournalEntry(props) {
                 <div className="info-header">
                     <img src={props.gitHubLogo}></img>
                     <span>{props.headerSpan}</span>
-                    <a href={props.gitHubLink} target="_blank">GitHub Link</a>
+                    <a href={props.gitHubLink} target="_blank">View on Google Maps</a>
                 </div>
                 <h2>{props.projectName}</h2>
                 <p className="time-period">{props.timePeriod}</p>
-                <p>{props.description}</p>
-                <hr></hr>
+                <p className="description">{props.description}</p>
             </div>
         </article>
     )

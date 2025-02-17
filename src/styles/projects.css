@@ -19,6 +19,10 @@
     margin-right: 300px;
     margin-left: 300px;
     background-color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+    border-style: solid;
 }
 
 
@@ -27,6 +31,7 @@
     flex-direction: row;
     gap: 10px;
     margin-bottom: 30px;
+    border-bottom: 1px solid lightslategray;
 }
 
 
@@ -55,8 +60,8 @@
 
 .journal-entry .info-container h2 {
     margin-top: 5px;
-    margin-bottom: 0px;
-    line-height: 20px;
+    margin-bottom: 8px;
+    line-height: 26px;
 }
 
 .journal-entry .info-container .info-header {
@@ -65,7 +70,18 @@
     gap: 10px;
 }
 
+.journal-entry .info-container .info-header span {
+    color: gray
+}
+
 .journal-entry .info-container .time-period {
-    margin-top: 1;
+    margin-top: 0;
     font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.journal-entry .info-container .description{
+    margin-top: 1.5;
+
 }
