@@ -9,7 +9,7 @@ import aquarium from "../images/aquarium.jpg"
 import reading from "../images/reading.webp"
 import programming from "../images/programming.webp"
 import ausStamp from "../images/postcard stamp.png"
-import chinaStamp from "../images/chinaStamp.jpg"
+import chinaStamp from "../images/chinastamp.jpg"
 import japanStamp from "../images/japanstamp.jpg"
 import franceStamp from "../images/francestamp.jpg"
 
