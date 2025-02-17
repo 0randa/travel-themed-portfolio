@@ -1,3 +1,19 @@
+/* Reset margins and padding for full-bleed background */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* ensures background covers the full height */
+}
+
+/* Background on the body (recommended) */
+body {
+    background: url("../images/worldmap.jpg") no-repeat center center fixed;
+    background-size: cover;       /* scales the image to fill the screen */
+    background-attachment: fixed; /* keeps image fixed while scrolling */
+    background-color: #f3f3f3;    /* fallback color, just in case */
+}
+
+
 .journal-container {
     display: flex;
     justify-content: left;
@@ -5,6 +21,7 @@
     align-items: flex-start;
     margin-right: 300px;
     margin-left: 300px;
+    background-color: white;
 }
 
 
@@ -37,4 +54,11 @@
 .journal-entry .info-container img {
     height: 20px;
     width: 20px;
+}
+
+.journal-entry .info-container .info-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
 }
