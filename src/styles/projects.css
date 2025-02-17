@@ -53,9 +53,19 @@
     width: 20px;
 }
 
+.journal-entry .info-container h2 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    line-height: 20px;
+}
+
 .journal-entry .info-container .info-header {
     display: flex;
     align-items: center;
     gap: 10px;
+}
 
+.journal-entry .info-container .time-period {
+    margin-top: 1;
+    font-weight: bold;
 }

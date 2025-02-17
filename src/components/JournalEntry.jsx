@@ -12,8 +12,9 @@ function JournalEntry(props) {
                     <a href={props.gitHubLink} target="_blank">GitHub Link</a>
                 </div>
                 <h2>{props.projectName}</h2>
-                <p>{props.timePeriod}</p>
+                <p className="time-period">{props.timePeriod}</p>
                 <p>{props.description}</p>
+                <hr></hr>
             </div>
         </article>
     )
