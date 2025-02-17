@@ -2,7 +2,7 @@ import React from "react";
 import Home from "./pages/Home";
 import Hobbies from "./pages/Hobbies"
 import Projects from "./pages/Projects";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
