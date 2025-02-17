@@ -18,13 +18,15 @@ function Projects() {
     })
 
     return (
-        <>
-            <Header />
-            <NavigationList />
-            <main className="journal-container">
-                {journalEntries}
-              
-            </main>
+        <>  
+            <div className="projects-page">
+                <Header />
+                <NavigationList />
+                <main className="journal-container">
+                    {journalEntries}
+                </main>
+            </div>
+
         </>
     )
 }

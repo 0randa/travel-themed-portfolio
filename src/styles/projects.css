@@ -1,18 +1,15 @@
-/* Reset margins and padding for full-bleed background */
-html, body {
+
+.projects-page {
+    background: url("../images/worldmap.jpg") no-repeat center center fixed;
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    background-size: cover;       
+    background-attachment: fixed; 
+    background-color: #f3f3f3;   
     margin: 0;
     padding: 0;
-    height: 100%; /* ensures background covers the full height */
 }
-
-/* Background on the body (recommended) */
-body {
-    background: url("../images/worldmap.jpg") no-repeat center center fixed;
-    background-size: cover;       /* scales the image to fill the screen */
-    background-attachment: fixed; /* keeps image fixed while scrolling */
-    background-color: #f3f3f3;    /* fallback color, just in case */
-}
-
 
 .journal-container {
     display: flex;
