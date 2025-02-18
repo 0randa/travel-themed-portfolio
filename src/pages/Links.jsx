@@ -1,3 +1,5 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import NavigationList from "../components/NavigationList"
 import Header from "../components/Header"
 import "../styles/links.css"
@@ -14,6 +16,7 @@ function Links() {
                 destination = {flight.destination}
                 gate = {flight.gate}
                 remarks = {flight.remarks}
+                link={flight.link}
             />
         )
     })

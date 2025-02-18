@@ -16,7 +16,8 @@ export default [
         },
         destination: "Home",
         gate: "1",
-        remarks: "Gate Open"
+        remarks: "Gate Open",
+        link: "/"
     },
     {
         time: "8:45",
@@ -26,7 +27,8 @@ export default [
         },
         destination: "Hobbies",
         gate: "2",
-        remarks: "Gate Closing"
+        remarks: "Gate Closing",
+        link: "/Hobbies"
     },
     {
         time: "8:45",
@@ -36,7 +38,8 @@ export default [
         },
         destination: "Projects",
         gate: "3",
-        remarks: "Gate Closing"
+        remarks: "Gate Closing",
+        link: "/Projects"
     },
     {
         time: "9:00",
@@ -45,8 +48,9 @@ export default [
             number: "ZY7645"
         },
         destination: "Links",
-        gate: "3",
-        remarks: "Boarding"
+        gate: "4",
+        remarks: "Boarding",
+        link: "/Links"
     },
     {
         time: "9:30",
@@ -56,8 +60,9 @@ export default [
             number: "AK1387"
         },
         destination: "Instagram",
-        gate: "4",
-        remarks: "Gates Closed"
+        gate: "5",
+        remarks: "Gates Closed",
+        link: "/"
     },
 
     {
@@ -68,8 +73,9 @@ export default [
             number: "OP8451"
         },
         destination: "Email",
-        gate: "4",
-        remarks: "Cancelled"
+        gate: "6",
+        remarks: "Cancelled",
+        link: "/"
     },
     {
         time: "9:10",
@@ -79,8 +85,9 @@ export default [
             number: "AF5883"
         },
         destination: "LinkedIn",
-        gate: "4",
-        remarks: "Cancelled"
+        gate: "7",
+        remarks: "Cancelled",
+        link: "/"
     },
     {
         time: "9:10",
@@ -90,6 +97,7 @@ export default [
         },
         destination: "GitHub",
         gate: "8",
-        remarks: "Gates Open"
+        remarks: "Gates Open",
+        link: "/"
     }
 ];

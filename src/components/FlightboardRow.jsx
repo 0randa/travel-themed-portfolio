@@ -1,10 +1,9 @@
 import React from "react";
 import "../styles/general.css";
 import flight_board from "../data/flight_board";
+import { Link } from "react-router-dom";
 
 function FlightboardRow(props) {
-    console.log(props)
-
     return (
         <div className="flight-row">
             <span>{props.time}</span>
@@ -12,7 +11,11 @@ function FlightboardRow(props) {
                 <img src={props.flight.img}></img>
                 <span>{props.flight.number}</span>
             </div>
-            <span>{props.destination}</span>
+            <span>
+                <Link to={props.link}>
+                    {props.destination}
+                </Link>
+            </span>
             <span>{props.gate}</span>
             <span>{props.remarks}</span>
         </div>
