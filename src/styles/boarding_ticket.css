@@ -46,7 +46,7 @@
 }
 
 .header {
-    background-color: red;
+    background-color: #2563EB;
 }
 
 .header-left-column {
@@ -60,7 +60,7 @@
 }
 
 .middle-section {
-    background-color: lightgray;
+    background-color: EAE0D5;
 }
 
 .middle-section-left-column {
@@ -151,7 +151,7 @@
 }
 
 .bottom-section {
-    background-color: red;
+    background-color: #2563EB;
     color: white; 
     text-align: center;
     display: grid;

@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/general.css";
+import "../styles/links.css"
 import flight_board from "../data/flight_board";
 import { Link } from "react-router-dom";
 
@@ -36,7 +37,9 @@ function FlightboardRow(props) {
                 {destination}
             </span>
             <span>{flightInfo.gate}</span>
-            <span>{flightInfo.remarks}</span>
+            <div className="remarks">
+                <span>{flightInfo.remarks}</span>
+            </div>
         </div>
     )
 }

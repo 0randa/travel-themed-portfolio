@@ -18,6 +18,19 @@
     margin-bottom: 15px;
 }
 
+.flight-row .remarks {
+    display: flex;
+    background-color: blue;
+    border-radius: 5px;
+    width: 200px; 
+  }
+
+.remarks span{
+    width: 200px;
+    color: white;
+    padding: 4px 12px;
+}
+
 .flightboard-header {
     margin-top: 5px;
 }

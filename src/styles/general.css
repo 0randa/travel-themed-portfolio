@@ -13,7 +13,7 @@ a, .link {
 
 header {
     display: flex;
-    background-color: red;
+    background-color: #F4A261;
     height: 80px;
     margin: 0;
     justify-content: center;
