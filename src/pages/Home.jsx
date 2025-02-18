@@ -81,22 +81,26 @@ function Navigation() {
 
 function BoardingPass() {
   return (
-    <div className="center-container">
-      <div className="boarding-pass">
-        <Header />
-        <div className="middle-section">
-          <div className="middle-section-left-column">
-            <FlightDetails />
-            <PassengerDetails />
+
+    <div className="pass-page-container">
+      <div className="center-container">
+        <div className="boarding-pass">
+          <Header />
+          <div className="middle-section">
+            <div className="middle-section-left-column">
+              <FlightDetails />
+              <PassengerDetails />
+            </div>
+            <Navigation />
           </div>
-          <Navigation />
-        </div>
-        <div className="bottom-section">
-          <div></div>
-          <div className="bottom-section-right-column"><p></p></div>
+          <div className="bottom-section">
+            <div></div>
+            <div className="bottom-section-right-column"><p></p></div>
+          </div>
         </div>
       </div>
     </div>
+
   );
 }
 

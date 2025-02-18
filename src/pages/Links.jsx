@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import NavigationList from "../components/NavigationList"
 import Header from "../components/Header"
 import "../styles/links.css"
 import FlightboardRow from "../components/FlightboardRow.jsx"
@@ -17,7 +15,7 @@ function Links() {
     })
 
     return (
-        <>
+        <div className="page-container">
             <Header />
             <div className="flightboard"></div>
             <div className="flightboard-header">
@@ -27,10 +25,9 @@ function Links() {
                 <span>Gate</span>
                 <span>Remarks</span>
             </div>
-            {flights}
-
-            
-        </>
+            {flights} 
+            <hr></hr>
+        </div>
     )
 }
 

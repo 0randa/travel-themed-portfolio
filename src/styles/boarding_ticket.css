@@ -1,13 +1,16 @@
+.pass-page-container {
+    min-height: 100vh;
+    background-image: url('../images/airport2.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .center-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f8f8f8; 
-    background-image: url('../images/airport2.avif');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .boarding-pass {
