@@ -3,6 +3,7 @@ import "../styles/general.css";
 import "../styles/links.css"
 import flight_board from "../data/flight_board";
 import { Link } from "react-router-dom";
+import { BOARDING, GATES_OPEN, GATES_CLOSING } from "../data/constants";
 
 function linkOrAnchor(props) {
     // if its external make it an anchor
@@ -21,10 +22,28 @@ function linkOrAnchor(props) {
     )
 }
 
+function getRemarkColour(remark) {
+    switch (remark) {
+        case GATES_OPEN:
+            return "blue";
+        case GATES_CLOSING:
+            return "red";
+        case BOARDING:
+            return "green";
+
+        default:
+            return "blue";
+    }
+
+}
+
 function FlightboardRow(props) {
     const flightInfo = props.prop
 
     const destination = linkOrAnchor(flightInfo)
+    const remarkColor = getRemarkColour(flightInfo.remarks);
+
+    console.log(remarkColor)
 
     return (
         <div className="flight-row">
@@ -37,7 +56,10 @@ function FlightboardRow(props) {
                 {destination}
             </span>
             <span>{flightInfo.gate}</span>
-            <div className="remarks">
+            <div 
+                className="remarks"
+                style={{backgroundColor: remarkColor}}
+            >
                 <span>{flightInfo.remarks}</span>
             </div>
         </div>

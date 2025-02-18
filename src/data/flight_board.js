@@ -7,6 +7,8 @@ import outlookImg from "../images/outlook-image.jpeg"
 import linkedinImg from "../images/linkedin-img.svg"
 import githubImg from "../images/githubfull-logo.jpeg"
 
+import { GATES_CLOSING, GATES_OPEN, BOARDING } from "./constants"
+
 export default [
     {
         time: "8:30",
@@ -16,7 +18,7 @@ export default [
         },
         destination: "Home",
         gate: "1",
-        remarks: "Gate Open",
+        remarks: BOARDING,
         link: "/",
         external: false
     },
@@ -28,7 +30,7 @@ export default [
         },
         destination: "Hobbies",
         gate: "2",
-        remarks: "Gate Closing",
+        remarks: BOARDING,
         link: "/Hobbies",
         external: false
     },
@@ -40,7 +42,7 @@ export default [
         },
         destination: "Projects",
         gate: "3",
-        remarks: "Gate Closing",
+        remarks: BOARDING,
         link: "/Projects",
         external: false
     },
@@ -52,7 +54,7 @@ export default [
         },
         destination: "Links",
         gate: "4",
-        remarks: "Boarding",
+        remarks: GATES_OPEN,
         link: "/Links",
         external: false
     },
@@ -64,7 +66,7 @@ export default [
         },
         destination: "GitHub",
         gate: "8",
-        remarks: "Gates Open",
+        remarks: GATES_OPEN,
         link: "https://github.com/0randa",
         external: true
     },
@@ -76,7 +78,7 @@ export default [
         },
         destination: "Instagram",
         gate: "5",
-        remarks: "Gates Closed",
+        remarks: GATES_CLOSING,
         link: "https://www.instagram.com/",
         external: true
     },
@@ -89,7 +91,7 @@ export default [
         },
         destination: "Email",
         gate: "6",
-        remarks: "Cancelled",
+        remarks: GATES_CLOSING,
         link: "https://outlook.office.com/mail/",
         external: true
     },
@@ -101,7 +103,7 @@ export default [
         },
         destination: "LinkedIn",
         gate: "7",
-        remarks: "Cancelled",
+        remarks: GATES_CLOSING,
         link: "https://www.linkedin.com/",
         external: true
     },
