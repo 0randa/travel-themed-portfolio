@@ -1,8 +1,23 @@
 import NavigationList from "../components/NavigationList"
 import Header from "../components/Header"
 import "../styles/links.css"
+import FlightboardRow from "../components/FlightboardRow.jsx"
+import flight_board from "../data/flight_board.js"
 
 function Links() {
+
+    const flights = flight_board.map(flight => {
+        return (
+            <FlightboardRow 
+                time = {flight.time}
+                flight = {flight.flight}
+                destination = {flight.destination}
+                gate = {flight.gate}
+                remarks = {flight.remarks}
+            />
+        )
+    })
+
     return (
         <>
             <Header />
@@ -15,6 +30,9 @@ function Links() {
                 <span>Gate</span>
                 <span>Remarks</span>
             </div>
+            {flights}
+
+            
         </>
     )
 }
