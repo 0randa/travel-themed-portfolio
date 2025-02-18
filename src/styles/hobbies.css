@@ -11,10 +11,12 @@
     display: flex;
     flex-wrap: wrap;
     column-gap: 15px;
-    border-style: solid;
+    border-style: dotted;
     border-width: 1px;
     border-color: black;
     position: relative;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .postcard > img {
