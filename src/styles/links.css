@@ -1,7 +1,6 @@
 .flightboard {
     width: 100%;
     max-width: 800px;
-    margin: 40px auto;
     border-radius: 8px;
     margin-left: 40px;
 }
@@ -17,6 +16,10 @@
 
 .flight-row {
     margin-bottom: 15px;
+}
+
+.flightboard-header {
+    margin-top: 5px;
 }
 
 

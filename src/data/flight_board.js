@@ -17,7 +17,8 @@ export default [
         destination: "Home",
         gate: "1",
         remarks: "Gate Open",
-        link: "/"
+        link: "/",
+        external: false
     },
     {
         time: "8:45",
@@ -28,7 +29,8 @@ export default [
         destination: "Hobbies",
         gate: "2",
         remarks: "Gate Closing",
-        link: "/Hobbies"
+        link: "/Hobbies",
+        external: false
     },
     {
         time: "8:45",
@@ -39,7 +41,8 @@ export default [
         destination: "Projects",
         gate: "3",
         remarks: "Gate Closing",
-        link: "/Projects"
+        link: "/Projects",
+        external: false
     },
     {
         time: "9:00",
@@ -50,44 +53,8 @@ export default [
         destination: "Links",
         gate: "4",
         remarks: "Boarding",
-        link: "/Links"
-    },
-    {
-        time: "9:30",
-        img: "blah",
-        flight: {
-            img: instagramImg,
-            number: "AK1387"
-        },
-        destination: "Instagram",
-        gate: "5",
-        remarks: "Gates Closed",
-        link: "/"
-    },
-
-    {
-        time: "9:10",
-        img: "blah",
-        flight: {
-            img: outlookImg,
-            number: "OP8451"
-        },
-        destination: "Email",
-        gate: "6",
-        remarks: "Cancelled",
-        link: "/"
-    },
-    {
-        time: "9:10",
-        img: "blah",
-        flight: {
-            img: linkedinImg,
-            number: "AF5883"
-        },
-        destination: "LinkedIn",
-        gate: "7",
-        remarks: "Cancelled",
-        link: "/"
+        link: "/Links",
+        external: false
     },
     {
         time: "9:10",
@@ -98,6 +65,44 @@ export default [
         destination: "GitHub",
         gate: "8",
         remarks: "Gates Open",
-        link: "/"
-    }
+        link: "https://github.com/0randa",
+        external: true
+    },
+    {
+        time: "9:20",
+        flight: {
+            img: instagramImg,
+            number: "AK1387"
+        },
+        destination: "Instagram",
+        gate: "5",
+        remarks: "Gates Closed",
+        link: "https://www.instagram.com/",
+        external: true
+    },
+
+    {
+        time: "9:25",
+        flight: {
+            img: outlookImg,
+            number: "OP8451"
+        },
+        destination: "Email",
+        gate: "6",
+        remarks: "Cancelled",
+        link: "https://outlook.office.com/mail/",
+        external: true
+    },
+    {
+        time: "9:40",
+        flight: {
+            img: linkedinImg,
+            number: "AF5883"
+        },
+        destination: "LinkedIn",
+        gate: "7",
+        remarks: "Cancelled",
+        link: "https://www.linkedin.com/",
+        external: true
+    },
 ];

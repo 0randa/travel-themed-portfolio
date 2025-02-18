@@ -11,12 +11,7 @@ function Links() {
     const flights = flight_board.map(flight => {
         return (
             <FlightboardRow 
-                time = {flight.time}
-                flight = {flight.flight}
-                destination = {flight.destination}
-                gate = {flight.gate}
-                remarks = {flight.remarks}
-                link={flight.link}
+                prop = {flight}
             />
         )
     })
@@ -24,7 +19,6 @@ function Links() {
     return (
         <>
             <Header />
-            <NavigationList />
             <div className="flightboard"></div>
             <div className="flightboard-header">
                 <span>Time</span>
