@@ -6,7 +6,7 @@ function Header() {
     return (
         <header>
             <img src={aeroplane}></img>
-            <h2>Keritas airlines</h2>
+            <h2>0randa airlines</h2>
         </header>
     )
 }

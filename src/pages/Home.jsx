@@ -11,7 +11,7 @@ function Header() {
     <div className="header">
       <div className="header-left-column">
         <img src={planeLogo} alt="Plane Logo" />
-        <p>Keritas Airlines</p>
+        <p>0randa Airlines</p>
         <p>Boarding Pass</p>
       </div>
       <div className="header-right-column">
@@ -49,10 +49,10 @@ function FlightDetails() {
 function PassengerDetails() {
   return (
     <div className="middle-section-bottom-row">
-      <div className="bottom-row-boxes"><p>Name:</p><p>Andy</p></div>
-      <div className="bottom-row-boxes"><p>Pronouns:</p><p>He/Him</p></div>
-      <div className="bottom-row-boxes"><p>Degree:</p><p>Computer Science</p></div>
-      <div className="bottom-row-boxes"><p>Year:</p><p>2nd</p></div>
+      <div className="bottom-row-boxes"><p className="key">Name:</p><p>Andy</p></div>
+      <div className="bottom-row-boxes"><p className="key">Pronouns:</p><p>He/Him</p></div>
+      <div className="bottom-row-boxes"><p className="key">Degree:</p><p>Computer Science</p></div>
+      <div className="bottom-row-boxes"><p className="key">Year:</p><p>2nd</p></div>
     </div>
   );
 }
