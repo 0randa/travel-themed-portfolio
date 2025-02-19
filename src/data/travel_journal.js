@@ -11,7 +11,8 @@ export default [
         gitHubLink: "https://github.com/0randa/aquarium_bot",
         projectName: "Discord Bot",
         timePeriod: "November 2024 - Present",
-        description: "This bot developed using PyCord to allow users to raise fish and simulate their own aquatic ecosystems."
+        description: "This bot developed using PyCord to allow users to raise fish and simulate their own aquatic ecosystems." +
+        " I designed it so that an aquarium can be set up within a dedicated discord channel, where users can nurture and manage their fish."
     },
 
     {
@@ -21,7 +22,9 @@ export default [
         gitHubLink: "https://github.com/0randa/guppy-site",
         projectName: "Minimalistic E-Commerce Website",
         timePeriod: "December 2024 - Late January 2025",
-        description: "Developed an e-commerce website that has features such as adding and removing items to the cart, and checking out."
+        description: "Developed an e-commerce website that has features such as adding and removing items to the cart, and checking out." +
+        " This project allowed me to have a higher understanding of grids and flexboxes in CSS, right after learning the basics." +
+        " I have also learned how to use Javascript to interact with HTML and CSS."
     },
 
     {

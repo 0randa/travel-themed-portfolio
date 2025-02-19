@@ -25,11 +25,11 @@ function linkOrAnchor(props) {
 function getRemarkColour(remark) {
     switch (remark) {
         case GATES_OPEN:
-            return "blue";
+            return "#0074D9";
         case GATES_CLOSING:
-            return "red";
+            return "#FF4136";
         case BOARDING:
-            return "green";
+            return "#2ECC40";
 
         default:
             return "blue";

@@ -22,13 +22,13 @@ function Hobbies() {
                 <div className="postcard">
                     <img src={gamingImage}></img>
                     <div className="postcard-mid">
-                        <p>Gaming</p>
+                        <h3>Gaming</h3>
                         <p>Favourite Games</p>
                         <ul>
-                            <li>Super Mario World</li>
-                            <li>Minecraft</li>
-                            <li>Pokémon</li>
-                            <li>Stardew Valley</li>
+                            <li>Super Mario World - Timeless classic</li>
+                            <li>Minecraft - Every Gen Z who grew up on YouTube had a Minecraft obsession at some point</li>
+                            <li>Pokémon - Gotta catch em all</li>
+                            <li>Stardew Valley - Very chill farming game</li>
                         </ul>
                     </div>
                     <div className="stamp-container">
@@ -39,7 +39,7 @@ function Hobbies() {
                 <div className="postcard">
                     <img src={aquarium}></img>
                     <div className="postcard-mid">
-                        <p>Aquarist</p>
+                        <h3>Aquarist</h3>
                         <p>Aquariums is a hobby where you raise your fish and manage your aquatic ecosystems.</p>
                         <p>I have a large fish tank filled with live plants, creating a natural habitat for my guppies to thrive and breed.
                         </p>
@@ -51,7 +51,7 @@ function Hobbies() {
                 <div className="postcard">
                     <img src={reading}></img>
                     <div className="postcard-mid">
-                        <p>Reading</p>
+                        <h3>Reading</h3>
 
                         <p>
                             Favourite genres:
@@ -93,19 +93,17 @@ function Hobbies() {
                 <div className="postcard">
                     <img src={programming}></img>
                     <div className="postcard-mid">
-                        <p>Programming</p>
+                        <h3>Programming</h3>
                         <p>
                             As a CS student, it would come to no surprise that I have programming as a hobby xd.
-                            I am interested in high level programming languages such as Javascript and Python, due to
-                            their extensive libraries.
+                            During the break I was spending my free time learning the basics of HTML and CSS.
                         </p>
 
                         <p>
-                            As of creating this project, I am also learning react, after learning HTML and CSS, to enrich
-                            my understanding of frontend programming.
+                            After creating a small project in HTML and CSS, I wanted to try to build this project 
+                            in React to get comfortable with syntax.
                         </p>
 
-                        <p>Feel free to explore my personal projects by clicking "projects" on the navigation bar</p>
                     </div>
                     <div className="stamp-container">
                         <img className="stamp" src={franceStamp}></img>
